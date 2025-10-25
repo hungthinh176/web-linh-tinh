@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse; /* gộp viền */
+    width: 500px;              /* độ rộng bảng */
+    margin: 20px auto;         /* căn giữa bảng */
+    text-align: center;        /* căn giữa nội dung ô */
+    font-family: Arial, sans-serif;
+}
+th, td {
+    border: 1px solid black;   /* viền ô */
+    padding: 10px;             /* khoảng cách chữ với viền */
+}
+th {
+    background-color: #f2f2f2; /* nền tiêu đề */
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* màu xen kẽ các hàng */
+}
+
+a {
+    text-decoration: none;
+    padding: 20px 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: aqua;
+    color: black;
+}
